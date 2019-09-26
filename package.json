@@ -1,0 +1,16 @@
+{
+	"name": "PostOnline",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/yumaster"
+	},
+	"description": "API request builder",
+	"author": "yumaster",
+	"version": "0.1.0",
+	"devDependencies": {
+		"jshint": "^2.10.2"
+	},
+	"scripts": {
+		"test": "jshint travis.js"
+	}
+}
