@@ -1,16 +1,25 @@
 {
-	"name": "PostOnline",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/yumaster"
-	},
-	"description": "API request builder",
-	"author": "yumaster",
-	"version": "0.1.0",
-	"devDependencies": {
-		"jshint": "^2.10.2"
-	},
-	"scripts": {
-		"test": "jshint travis.js"
-	}
+  "name": "markdown",
+  "version": "2.2.3",
+  "description": "Markdown Combinatorial editor | 组合编辑器，Monaco Editor 编辑器 + Marked 解析 + DOMPurify 清洗 + highlight 代码高亮",
+  "main": "src/markdown.bundle.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yumaster/markdown.git"
+  },
+  "keywords": [
+    "markdown"
+  ],
+  "author": "yumaster",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yumaster/markdown/issues"
+  },
+  "homepage": "https://github.com/yumaster/markdown#readme",
+  "files": [
+    "src"
+  ]
 }
