@@ -22,8 +22,8 @@
     <script src="https://code.bdstatic.com/npm/jquery@3.4.1/dist/jquery.min.js"></script>
 
     <link href="src/markdown.css?2.2.2" rel="stylesheet" />
-    <script src="/src/markdown.bundle.min.js?2.2.3"></script>
-    <script src="/src/markdown.extend.js?2.2.3"></script>
+    <script src="src/markdown.bundle.min.js?2.2.3"></script>
+    <script src="src/markdown.extend.js?2.2.3"></script>
     <script src="https://code.bdstatic.com/npm/monaco-editor@0.19.2/min/vs/loader.js"></script>
 
     <script>
@@ -60,7 +60,7 @@
             //加载默认值
             var lsmd = localStorage.getItem("netnrmd_markdown");
             if (!(lsmd && lsmd.trim() != "")) {
-                fetch('https://md.yumaster.com/README.md').then(function (res) {
+                fetch('http://tag.yumaster.net/markdown/README.md').then(function (res) {
                     if (res.status == 200) {
                         res.text().then(function (md) {
                             nmd.setmd(md);
