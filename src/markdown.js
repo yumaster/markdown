@@ -146,7 +146,7 @@
             //高度
             this.height(obj.height = markdown.dv(obj.height, 250));
             //本地保存键
-            obj.storekey = markdown.dv(obj.storekey, "netnrmd_markdown");
+            obj.storekey = markdown.dv(obj.storekey, "yumastermd_markdown");
             //本地自动保存
             obj.autosave = markdown.dv(obj.autosave, true);
             //载入本地保存
